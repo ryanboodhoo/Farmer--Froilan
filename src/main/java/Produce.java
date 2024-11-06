@@ -1,2 +1,2 @@
-public class Produce {
+public class Produce implements Edible{
 }
