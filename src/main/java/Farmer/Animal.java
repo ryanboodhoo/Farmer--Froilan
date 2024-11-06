@@ -1,11 +1,10 @@
 package Farmer;
-
-public class Animal implements NoiseMaker, Eater {
-
-String name;
+//Animal (Inherits from NoiseMaker and Eater)
+public abstract class Animal implements NoiseMaker, Eater {
 
     @Override
-    public void makeNoise() {
+    public abstract void eat(Edible edible);
 
-    }
+    @Override
+    public abstract void makeNoise();
 }
