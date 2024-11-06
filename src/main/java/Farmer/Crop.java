@@ -6,4 +6,5 @@ public class Crop extends Produce implements Edible {
     public void thisIsEdible() {
 
     }
+    //
 }
