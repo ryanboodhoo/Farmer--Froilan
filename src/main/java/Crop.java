@@ -1,2 +1,3 @@
-public class Crop {
+public class Crop extends Produce implements Edible{
+
 }
