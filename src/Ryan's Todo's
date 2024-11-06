@@ -1,0 +1,22 @@
+ Assigned Classes:
+ Edible (Base Interface for edible items)
+ NoiseMaker (Base Interface for items that can make noise)
+ Animal (Inherits from NoiseMaker and Eater)
+ Horse (Inherits from Animal, and Implements Rideable)
+ Chicken (Inherits from Animal and also Produce which can yield EdibleEgg when hasBeenFertilized is false)
+ Produce (Base class for objects that can yield Edible items)
+ Crop (Inherits from Produce, yields Edible based on hasBeenHarvested and hasBeenFertilized)
+ CornStalk, TomatoPlant (Inherit from Crop, yield Edible like EarCorn and Tomato)
+
+
+
+ Test Case Responsibilities:
+ Test Horse behavior (e.g., ensuring the Horse can be ridden, fed, etc.).
+ Test Chicken behavior (e.g., ensuring chickens produce eggs based on the hasBeenFertilized flag).
+ Test Produce behavior (e.g., test that Crop objects can yield Edible based on their flags).
+ Test Animal behavior (e.g., ensure animals can eat Edible items, and chickens and horses produce noise).
+ Test classes:
+ HorseTests: Verify that Horse can be ridden and fed.
+ ChickenTests: Verify that Chicken can lay eggs based on the fertilization flag.
+ ProduceTests: Ensure Produce objects yield Edible items when conditions are met.
+ AnimalTests: Test if animals can make noise and eat edible items.

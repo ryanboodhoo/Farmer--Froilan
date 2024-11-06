@@ -1,4 +1,5 @@
 package Farmer;
 
-public class Produce implements Edible {
+public interface Produce {
+    Edible yield();
 }
