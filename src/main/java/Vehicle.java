@@ -1,2 +1,6 @@
-public class Vehicle {
+public abstract class Vehicle implements NoiseMaker, Rideable{
+
+    public Vehicle() {}
+
+
 }
