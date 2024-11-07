@@ -1,4 +1,2 @@
-public interface Aircraft {
-
-    public boolean canFly();
+public class Aircraft {
 }
