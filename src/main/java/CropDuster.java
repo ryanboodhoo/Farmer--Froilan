@@ -1,3 +1,4 @@
+
 public class CropDuster extends FarmVehicle implements Aircraft {
     public CropDuster() {}
     @Override
