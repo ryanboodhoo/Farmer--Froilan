@@ -2,5 +2,5 @@ package Farmer;
 
 public interface Eater {
 
-    void eat(Edible edible);
+    boolean eat(Edible edible);
 }
