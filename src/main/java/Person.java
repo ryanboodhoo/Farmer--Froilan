@@ -6,7 +6,7 @@ public class Person implements Eater, Rider {
         this.id = id;
         this.name = name;
     }
-
+//
     @Override
     public void eat(Edible edible) {
         System.out.println(name + " is eating " + edible);
