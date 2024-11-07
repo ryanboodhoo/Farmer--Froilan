@@ -1,4 +1,4 @@
-package Farmer;
+public interface Aircraft {
 
-public class Aircraft {
+    public boolean canFly();
 }
